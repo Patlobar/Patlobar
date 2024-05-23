@@ -42,7 +42,7 @@
                         <p>{{$produto->descricao}}</p>
                         <div class="card-actions justify-center">
                           
-                            <button class="btn btn-primary font-bold text-lg text-silver" >R${{$produto->valor}}
+                            <button class="btn btn-primary font-bold text-lg text-silver" >R${{number_format($produto->valor,2,',','.')}}
                             </button>
                         </div>
                     </div>

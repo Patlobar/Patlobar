@@ -31,3 +31,6 @@ dd("salvo com sucesso!");
 
 })->name('salva-usuario');
 
+//.................Produtos.........................
+
+Route::view('/cadastra-produto', 'cadastra-produto');
