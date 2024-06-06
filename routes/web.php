@@ -36,11 +36,11 @@ dd("salvo com sucesso!");
 Route::view('/cadastra-produto', 'cadastra-produto');
 Route::post('/salva-produto',
 function (Request $request) {
-dd(request);
+//dd(request);
 $produto= new Produto();
 $produto->nome = $request->nome;
-$produto->descricao = $request->valor;
-
+$produto->descricao = $request->descricao;
+$produto->valor = $request->preco;
 $file= request()->file('foto');
 
 $foto = $file->store('produtos', ['disk' => 'fotos']);
