@@ -19,7 +19,7 @@ return view('home', compact('listaProdutos'));
 });
 Route::view('/cria-conta', 'cria-conta');
 Route::view('/testedeconteudo', 'teste');
-Route:: post('/salva-usuario',
+Route::post('/salva-usuario',
 function(Request $request) {
 //dd($request);
 $usuario = new User();
@@ -34,3 +34,24 @@ dd("salvo com sucesso!");
 //.................Produtos.........................
 
 Route::view('/cadastra-produto', 'cadastra-produto');
+Route::post('/salva-produto',
+function (Request $request) {
+dd(request);
+$produto= new Produto();
+$produto->nome = $request->nome;
+$produto->descricao = $request->valor;
+
+$file= request()->file('foto');
+
+$foto = $file->store('produtos', ['disk' => 'fotos']);
+$produto->foto = $foto;
+
+$produto->user_id = 1;
+
+
+$produto->save();
+dd("salvo com sucesso!!");
+
+})->name('salva-produto');
+
+

@@ -126,6 +126,62 @@ class produtoSeeder extends Seeder
             'foto'=>'https://http2.mlstatic.com/D_NQ_NP_2X_790745-MLB75882886961_042024-F.webp',
             'user_id'=>1, 
         ],
+        [
+            'nome'=> 'Toalhas de Banho', 
+            'descricao'=>'Jogo de taolhas de banho com detalhes dourados',
+            'valor'=>70  ,
+            'foto'=>'https://cdn.awsli.com.br/600x1000/2540/2540198/produto/212996128/toalha-banho-ohana-barata-linda-para-presente-natal-mercado-livre-barata-fabrica-azul-petroleo-banhao-rosa-bebe-menina-menino-atacadinho-brusque-banhao-bordado-rgbdhm.jpg',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Jogo de roupão', 
+            'descricao'=>'Conjunto roupão de banho casal',
+            'valor'=>100  ,
+            'foto'=>'https://www.catran.com.br/catran/fotos/Roupao-de-banho-adulto-feminino-maelle-1635165397__m372546.jpg',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Roupão infantil', 
+            'descricao'=>'roupão infantil personagens',
+            'valor'=>89.90  ,
+            'foto'=>'https://www.kidsclothes.com.br/cdn/shop/products/product-image-310737552.jpg?v=1571726675',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Cortina box', 
+            'descricao'=>'Cortina para banheiro box varão',
+            'valor'=>49.90  ,
+            'foto'=>'https://m.media-amazon.com/images/I/61NxJtGO79L._AC_UF894,1000_QL80_.jpg',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Jogo de cozinha', 
+            'descricao'=>'Kit jogo de cozinha',
+            'valor'=>90  ,
+            'foto'=>'https://images.tcdn.com.br/img/img_prod/548599/2123_1_20240226132439.jpg',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Jogo de panelas', 
+            'descricao'=>'Jogo de panelas anti aderente',
+            'valor'=>120  ,
+            'foto'=>'https://cdn.awsli.com.br/2500x2500/2092/2092462/produto/22233520464239e3725.jpg',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Jogo de talheres', 
+            'descricao'=>'Jogo de talheres tramontina',
+            'valor'=>40  ,
+            'foto'=>'https://m.media-amazon.com/images/I/71+A34NmQ-L._AC_UF894,1000_QL80_.jpg',
+            'user_id'=>1, 
+        ],
+        [
+            'nome'=> 'Jogo de pratos', 
+            'descricao'=>'Jogo de pratos Oxford',
+            'valor'=>130  ,
+            'foto'=>'https://images.tcdn.com.br/img/img_prod/766438/jogo_6_pratos_de_sobremesa_de_porcelana_garden_21cm_4853_1_be00c032f5a207ef382bf2a71ded4313.jpg',
+            'user_id'=>1, 
+        ],
        ]
 
 

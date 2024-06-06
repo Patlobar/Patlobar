@@ -1,4 +1,4 @@
-<div class="navbar bg-yellow-300">
+<div class="navbar bg-purple-500">
     <div class="flex-1">
       <a class="btn btn-ghost text-xl">MarketShop</a>
     </div>
@@ -9,14 +9,14 @@
       <div class="dropdown dropdown-end">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
-            <img alt="Tailwind CSS Navbar component" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw95noi9mZyCA7q-nodDO8Ra_9Pu7rJQYaIA&s" />
+            <img alt="Tailwind CSS Navbar component" src="https://w7.pngwing.com/pngs/523/443/png-transparent-shopping-cart-software-shopping-cart-purple-angle-violet.png" />
           </div>
         </div>
         <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
           <li>
             <a class="justify-between">
               Meu Perfil
-              <span class="badge">novidades!</span>
+              <span class="badge"></span>
             </a>
           </li>
           <li><a>Configurações</a></li>
@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="navbar bg-yellow-300 ">
+<div class="navbar bg-purple-300 ">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
